@@ -18,9 +18,9 @@ font pango:monospace 8
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
-exec --no-startup-id conky -c ~/.config/conky/conky_sys.conf & 
-exec --no-startup-id conky -c ~/.config/conky/conky_task.conf &
-exec --no-startup-id conky -c ~/.config/conky/conky_task_cal.conf &
+# exec --no-startup-id conky -c ~/.config/conky/conky_sys.conf & 
+# exec --no-startup-id conky -c ~/.config/conky/conky_task.conf &
+# exec --no-startup-id conky -c ~/.config/conky/conky_task_cal.conf &
 
 
 

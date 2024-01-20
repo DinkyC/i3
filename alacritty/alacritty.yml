@@ -1,0 +1,52 @@
+# # This is a basic Alacritty configuration file.
+# # For more advanced configuration options, refer to the documentation:
+# # https://github.com/alacritty/alacritty
+#
+# # Font configuration
+font:
+  size: 9  # Font size in points
+  family: JetBrains Mono, 'DejaVu Sans Mono', 'Noto Mono', 'Liberation Mono', 'Inconsolata', 'Courier New', 'Courier', 'monospace'
+
+# Colors
+colors:
+  primary:
+    background: '0x1e1e1e'  # Background color (hex RGB)
+    foreground: '0xeeeeee'  # Text color (hex RGB)
+  cursor:
+    text: '0x1e1e1e'        # Cursor text color (hex RGB)
+    cursor: '0xeeeeee'      # Cursor color (hex RGB)
+
+# # Scrolling
+scrolling:
+   history_size: 1000      # Number of lines to keep in scrollback history
+   mouse:
+     enable: true          # Enable scrolling with mouse wheel
+#
+# # Visual bell (optional)
+# visual_bell:
+#   bell_animation: Slim   # Animation style for visual bell (none, Peak, or Slim)
+#
+# Window options
+window:
+  dimensions:
+    columns: 80           # Default number of columns
+    lines: 24             # Default number of lines
+
+# # Startup directory (optional)
+# working_directory: ~/    # Set your preferred startup directory
+#
+# # Allow Alacritty to use alternate screen (useful for some applications)
+# allow_alt_screen: true
+#
+# Copy and paste configuration
+clipboard:
+  copy_on_select: true   # Copy selected text to clipboard
+  # You can configure additional options for pasting behavior if needed
+#
+# # Additional settings and overrides can be added here as needed.
+#
+window:
+  opacity: .9
+
+
+#
